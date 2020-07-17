@@ -1,0 +1,464 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>77/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 17 05:43:05 PDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>7 seconds (7674 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: PRINE HEALTH MEDICAL GROUP, PLLC - 1199, PRINE HEALTH MEDICAL GROUP, PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, tnelson549, MD#Cure21015, 1531, LEE, MICHAEL, 12/17/1962, 107935, 4/1/2020, 90961, N18.6, 594, 0, 1199 NATIONAL BENEFIT FUND, 5/8/2020, 9007301778, NULL, PRIMARY, Cohen, Jeffrey, NSN LIJ Medical Center Dialysis, NO, , May  1 2020 10:04PM, SA, US, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: PRINE HEALTH MEDICAL GROUP, PLLC - 1199, PRINE HEALTH MEDICAL GROUP, PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, tnelson549, MD#Cure21015, 108070, SAENZ, TINA, 12/16/1994, 100358, 4/17/2020, 99204, N30.10, M54.5, E28.2, 403, 0, 1199 NATIONAL BENEFIT FUND, 5/7/2020, 9006443254, NULL, PRIMARY, Freilich, Arielle, .PPC PRINE Primary Care A, NO, Working on EDI Rejection: Claim rejected due to missing or invalid subscriber ID. Now I have resubmitted the claim after updating the correct member ID through web portal. ES not fired any alert because eligibility was showing with old member ID as well. N|A, Apr 17 2020  3:40PM, USA, DMT, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: PRINE HEALTH MEDICAL GROUP, PLLC - 1199, PRINE HEALTH MEDICAL GROUP, PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, tnelson549, MD#Cure21015, 108432, MCPHERSON, ROSELYN, 5/21/1974, 106166, 5/6/2020, 99244, 81003, N28.1, 470.62, 0, 1199 NATIONAL BENEFIT FUND, 5/8/2020, 9007574029, NULL, PRIMARY, Ali, Sayed, .NSN NORTH SHORE NEPHROLOGY, NO, Claim has been submitted to primary insurance for processing. N/A, May  6 2020  4:00PM, SA, US, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: PRINE HEALTH MEDICAL GROUP, PLLC - 1199, PRINE HEALTH MEDICAL GROUP, PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, tnelson549, MD#Cure21015, 108436, APPIAH CHIN, ALICIA, 11/28/1988, 105007, 5/4/2020, 99214, J45.20, R06.02, R07.89, 267, 0, 1199 NATIONAL BENEFIT FUND, 5/5/2020, 9034767092, NULL, PRIMARY, Freilich, Arielle, .PPC PRINE Primary Care A, NO, , May  4 2020  3:00PM, SA, US, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: PRINE HEALTH MEDICAL GROUP, PLLC - 1199, PRINE HEALTH MEDICAL GROUP, PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, tnelson549, MD#Cure21015, 108471, TAVERAS, YOLANDA, 8/5/1982, 105004, 5/4/2020, 99205, U07.1, R06.00, R05, 509, 0, 1199 NATIONAL BENEFIT FUND, 5/5/2020, 9800580449, NULL, PRIMARY, Freilich, Arielle, .PPC PRINE Primary Care A, NO, , May 11 2020 10:40AM, SA, US, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: PRINE HEALTH MEDICAL GROUP, PLLC - 1199, PRINE HEALTH MEDICAL GROUP, PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, tnelson549, MD#Cure21015, 108518, CABRAL, EVELYN, 6/19/1983, 106538, 5/5/2020, 99204, G47.00, Z87.11, D50.8, F41.9, 403, 0, 1199 NATIONAL BENEFIT FUND, 5/8/2020, 9800380035, NULL, PRIMARY, Freilich, Arielle, .PPC PRINE Primary Care A, NO, , May 19 2020 12:00AM, SA, US, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: PRINE HEALTH MEDICAL GROUP, PLLC - 1199, PRINE HEALTH MEDICAL GROUP, PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, tnelson549, MD#Cure21015, 1244, ABRAHAM, JAMES, 2/4/1953, 92107, 4/27/2020, 99214, N18.2, N18.2, N18.2, N18.2, E11.9, E11.9, E11.9, E11.9, E11.9, E11.9, E11.9, E11.9, E11.9, I10, I10, I10, I10, I10, I10, I10, I10, I10, I10, I10, 267, 0, 1199 NATIONAL BENEFIT FUND, 4/29/2020, 9004738867, 5/29/2020, PRIMARY, Cohen, Jeffrey, .NSN NORTH SHORE NEPHROLOGY, NO, , May 27 2020  9:44AM, SA, US, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: PRINE HEALTH MEDICAL GROUP, PLLC - 1199, PRINE HEALTH MEDICAL GROUP, PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, tnelson549, MD#Cure21015, 1244, ABRAHAM, JAMES, 2/4/1953, 103835, 4/27/2020, 99453, I10, E11.9, 44, 0, 1199 NATIONAL BENEFIT FUND, 4/30/2020, 9004738867, 5/29/2020, PRIMARY, Cohen, Jeffrey, .NSN NORTH SHORE NEPHROLOGY, NO, , May 27 2020  9:44AM, SA, US, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: PRINE HEALTH MEDICAL GROUP, PLLC - 1199, PRINE HEALTH MEDICAL GROUP, PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, tnelson549, MD#Cure21015, 13037, JEAN, PIERRE, 10/18/1951, 107923, 4/1/2020, 90961, N18.6, 594, 0, 1199 NATIONAL BENEFIT FUND, 5/8/2020, 9006819112, NULL, PRIMARY, Cohen, Jeffrey, NSN LIJ Medical Center Dialysis, NO, , May  1 2020  9:39PM, SA, US, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: MARGARET SAFO MD PC - 1199, MARGARET SAFO MD PC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, mmprempeh, safo2045!, 1959, BOWEN, AMBER, 1/14/2006, 128007, 1/9/2020, 99213, R42, 120, 0, LOCAL 1199NBF, 5/1/2020, 9002365696, 4/27/2020, PRIMARY, Safo, Margaret, FAR ROCKAWAY, NO, 1199 denied the claim due to COB issue under ID 9005262780. I have rebilled the claim under ID 9002365696  as a primary as per patients request. N/A, Jan  9 2020  3:15PM, RD, DMT, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: MARGARET SAFO MD PC - 1199, MARGARET SAFO MD PC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, mmprempeh, safo2045!, 3302, DONKOR, LESLIE, 3/22/2005, 126549, 11/2/2019, 99394, 90460, 90686, S9470, Z23, Z00.129, Z01.89, Z68.52, 25, 0, LOCAL 1199NBF, 12/12/2019, 9007998244, 12/27/2019, PRIMARY, Safo, Margaret, FAR ROCKAWAY, NO, , Feb  3 2020 11:15AM, Billing, Cure, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: MARGARET SAFO MD PC - 1199, MARGARET SAFO MD PC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, mmprempeh, safo2045!, 4221, DONKOR, NANA EFFAH, 1/23/2009, 126550, 11/2/2019, 99393, 90460, 90461, 90686, 90651, 90715, S9470, Z23, Z00.129, Z68.52, Z01.89, 768.06, 0, LOCAL 1199NBF, 12/12/2019, 9007998244, 1/22/2020, PRIMARY, Safo, Margaret, FAR ROCKAWAY, NO, , Mar  5 2020  1:15PM, Billing, Cure, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: MARGARET SAFO MD PC - 1199, MARGARET SAFO MD PC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, mmprempeh, safo2045!, 7734, ROBINSON, KORI, 9/15/2018, 130816, 5/7/2020, 99392, 90460, 90633, S9470, Z23, Z00.129, Z01.89, 390.68, 0, LOCAL 1199NBF, 5/8/2020, 9032451577, NULL, PRIMARY, Safo, Margaret, FAR ROCKAWAY, NO, , May  7 2020  4:30PM, Billing, Cure, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: MARGARET SAFO MD PC - 1199, MARGARET SAFO MD PC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, mmprempeh, safo2045!, 7762, GILMORE, NYLAH, 10/21/2018, 126336, 11/2/2019, 99392, 90460, 90461, 90716, 90633, 90707, 90686, S9470, Z23, Z00.129, Z01.89, 100, 0, LOCAL 1199NBF, 12/11/2019, 9800038115, 12/27/2019, PRIMARY, Safo, Margaret, FAR ROCKAWAY, NO, NULL, Jun  6 2020 11:00AM, NULL, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: MARGARET SAFO MD PC - 1199, MARGARET SAFO MD PC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, mmprempeh, safo2045!, 7985, NDUKWE, OBIAMAKA, 7/28/2019, 130821, 5/4/2020, 99391, 36400, S9470, Z00.129, Z01.89, 357.68, 0, LOCAL 1199NBF, 5/6/2020, 9800181019, NULL, PRIMARY, Safo, Margaret, FAR ROCKAWAY, NO, , May  4 2020  9:30AM, Billing, Cure, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: LYON PRIMARY CARE PLLC (Cloud 11) - 1199, LYON PRIMARY CARE PLLC (Cloud 11), https://navinet.navimedix.com/sign-in?ReturnUrl=/, tnelson549, CureMD$9800, 3100, MADISON, STEPHANIE, 2/10/1970, 88877, 5/1/2020, 99213, Z20.828, 118, 0, 1199 SEIU Benefit Funds, 5/8/2020, 9005004609, NULL, PRIMARY, Lyon, Valerie , Lyon Primary Care PLLC, NO, , May  1 2020 12:00AM, Billing, Cure, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY) - 1199, ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY), https://navinet.navimedix.com/sign-in?ReturnUrl=/, wallen136, Wa346!ba, 1460, Samuda, Cora, 9/9/1957, 14639, 2/6/2020, J7320, 77002, 27369, Q9966, Q9966, M17.12, R26.81, R26.2, M25.662, M25.562, 1350, 0, 1199SEIU BENEFIT AND PENSION FUND, 3/6/2020, 9016790929, 5/5/2020, PRIMARY, Reimann, George, Active Life Health of NY PC, NO, Working on Email: 1199 denied the CPT 77002 denied due to provider cannot perform radiology services due to his specialty. As per checking Dr. Reimann Georges specialty is Emergency medicine however insurance paid the CPT 77002 under Dr. Streisand Robert whose specialty is Thoracic Surgery. Claim billed under Dr. Reimann Georges but we cannot change provider now we resubmitted 77002 along 26 modifier with reconsideration form. Email ref: 1199 NBF < Resubmission required. N/A, Feb 13 2020  4:15PM, OsteoKS, DMT, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY) - 1199, ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY), https://navinet.navimedix.com/sign-in?ReturnUrl=/, wallen136, Wa346!ba, 2049, Marsh, Valrie, 10/10/1956, 14464, 1/28/2020, J7320, 77002, 27369, Q9966, Q9966, M17.12, M25.562, M25.662, R26.2, R26.81, R26.9, 924, 0, 1199 NATIONAL BENEFIT FUND, 4/3/2020, 9046582288, 3/12/2020, PRIMARY, Streisand, Robert , Active Life Health of NY PC, NO, $0 payment.   27369 denied: Drug administration code is not payable when the related drug code is not billed or denied.  Q9966 denied due to service being inclusive to primary procedure not separately payable. J7320 denied due to not being medically necessary. 77002 denied:  Guidance is not payable when the primary procedure to which it is related is denied.  Action:  Insurance needs acreditation documentation submitted that provider can render service and CureMD needs to submit appeal with accreditation documentation for whole claim via mail: ATTN APPEALS POX BOX 1007 New York NY 10108., Feb  6 2020 11:15AM, Gossett, Alexandra, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY) - 1199, ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY), https://navinet.navimedix.com/sign-in?ReturnUrl=/, wallen136, Wa346!ba, 2049, Marsh, Valrie, 10/10/1956, 14466, 2/6/2020, J7320, 77002, 27369, Q9966, Q9966, M17.12, M25.662, M25.562, R26.9, R26.2, R26.81, 1350, 0, 1199 NATIONAL BENEFIT FUND, 5/1/2020, 9046582288, 4/28/2020, PRIMARY, Streisand, Robert , Active Life Health of NY PC, NO, $0 payment.   27369 denied: Drug administration code is not payable when the related drug code is not billed or denied.  Q9966 denied due to service being inclusive to primary procedure not separately payable. J7320 denied due to not being medically necessary. 77002 denied:  Guidance is not payable when the primary procedure to which it is related is denied.  Action:  Insurance needs acreditation documentation submitted that provider can render service and CureMD needs to submit appeal with accreditation documentation for whole claim via mail: ATTN APPEALS POX BOX 1007 New York NY 10108., Feb  6 2020 11:15AM, Gossett, Alexandra, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY) - 1199, ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY), https://navinet.navimedix.com/sign-in?ReturnUrl=/, wallen136, Wa346!ba, 2181, Banaby, Marilyn, 8/2/1959, 11004, 11/13/2019, J7320, 77002, 27369, Q9966, Q9966, J2001, M17.11, M25.661, M25.561, R26.2, 1352, 0, 1199 NATIONAL BENEFIT FUND, 11/14/2019, 9012428091, NULL, PRIMARY, Reimann, George, Active Life Health of NY PC, NO, $0 payment. Q9966 denied- is not separately payable its inclusive in primary procedure. 77002 denied due to provider not being credentialed for service.J7320 denied due to lack of prior authorization. Action(Alex): Sent claim back for review for J7320 referencing auth 4095213 valid 10/8/2019- 4/8/2020.  Per Ms. Hutton 8-12 weeks turnaround. Claim tracking QMXGR1518471. Action:  Insurance needs documentation submitted that provider can render service via mail: ATTN APPEALS POX BOX 1007 New York NY 10108., Nov 13 2019  1:30PM, Gossett, Alexandra, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY) - 1199, ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY), https://navinet.navimedix.com/sign-in?ReturnUrl=/, wallen136, Wa346!ba, 2223, Baisel, Elizabeth, 4/12/1960, 15079, 2/18/2020, J7320, 77002, 27369, Q9966, Q9966, M17.11, M25.561, M25.661, R26.2, R26.81, R26.9, 349, 0, 1199SEIU BENEFIT AND PENSION FUND, 2/26/2020, 9013033103, 4/22/2020, PRIMARY, Reimann, George, Active Life Health of NY PC, NO, 1199 denied the CPT 73580/77002 denied due to provider cannot perform radiology services due to his specialty. As per checking Dr. Reimann Georges specialty is Emergency medicine however insurance paid the CPT 77002 under Dr. Streisand Robert whose specialty is Thoracic Surgery whereas CPT 73580 denied under both providers. An email has been sent to the client for global approval. We will take action after getting a response to that email. As per AR response on DOS 01/272020. Email ref-Active life health of NY (ST NY & GC) < 1199 benefit fund < Specialty Issue (CPT 73580 77002 & DME). N/A, Feb 25 2020  3:30PM, OsteoKS, DMT, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY) - 1199, ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY), https://navinet.navimedix.com/sign-in?ReturnUrl=/, wallen136, Wa346!ba, 2223, Baisel, Elizabeth, 4/12/1960, 15424, 2/24/2020, J7320, 77002, 27369, Q9966, Q9966, M17.12, M25.562, M25.662, R26.2, R26.81, R26.9, 349, 0, 1199SEIU BENEFIT AND PENSION FUND, 2/28/2020, 9013033103, 4/27/2020, PRIMARY, Reimann, George, Active Life Health of NY PC, NO, 1199 denied the CPT 73580/77002 denied due to provider cannot perform radiology services due to his specialty. As per checking Dr. Reimann Georges specialty is Emergency medicine however insurance paid the CPT 77002 under Dr. Streisand Robert whose specialty is Thoracic Surgery whereas CPT 73580 denied under both providers. An email has been sent to the client for global approval. We will take action after getting a response to that email. As per AR response on DOS 01/272020. Email ref-Active life health of NY (ST NY & GC) < 1199 benefit fund < Specialty Issue (CPT 73580 77002 & DME). N/A, Feb 25 2020  3:30PM, OsteoKS, DMT, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY) - 1199, ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY), https://navinet.navimedix.com/sign-in?ReturnUrl=/, wallen136, Wa346!ba, 2223, Baisel, Elizabeth, 4/12/1960, 15425, 2/25/2020, J7320, 77002, 27369, Q9966, Q9966, M17.11, M25.561, M25.661, R26.2, 349, 0, 1199SEIU BENEFIT AND PENSION FUND, 3/3/2020, 9013033103, 4/28/2020, PRIMARY, Reimann, George, Active Life Health of NY PC, NO, 1199 denied the CPT 73580/77002 denied due to provider cannot perform radiology services due to his specialty. As per checking Dr. Reimann Georges specialty is Emergency medicine however insurance paid the CPT 77002 under Dr. Streisand Robert whose specialty is Thoracic Surgery whereas CPT 73580 denied under both providers. An email has been sent to the client for global approval. We will take action after getting a response to that email. As per AR response on DOS 01/272020. Email ref-Active life health of NY (ST NY & GC) < 1199 benefit fund < Specialty Issue (CPT 73580 77002 & DME). N/A, Feb 25 2020  3:30PM, OsteoKS, DMT, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY) - 1199, ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY), https://navinet.navimedix.com/sign-in?ReturnUrl=/, wallen136, Wa346!ba, 2412, Huerta, Estrella A, 3/20/1953, 10310, 10/29/2019, 99202, J3304, 73580, 27369, Q9966, J2001, M17.12, M25.662, M25.562, R26.2, 378, 0, 1199 NATIONAL BENEFIT FUND, 12/19/2019, 9040616098, 4/8/2020, PRIMARY, Reimann, George, Active Life Health of NY PC, NO, , Jan 10 2020  1:45PM, Billing, Cure, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY) - 1199, ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY), https://navinet.navimedix.com/sign-in?ReturnUrl=/, wallen136, Wa346!ba, 3700, Biti, Nizie, 8/1/1956, 16580, 3/12/2020, 99202, J1040, 77002, 20610, Q9966, Q9966, M17.12, M17.11, M25.561, M25.562, M25.661, M25.662, R26.2, M17.0, 349, 0, 1199SEIU BENEFIT AND PENSION FUND, 3/16/2020, 9025036987, 4/29/2020, PRIMARY, Reimann, George, Active Life Health of NY PC, NO, , Mar 12 2020  1:21PM, Billing, Cure, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY) - 1199, ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY), https://navinet.navimedix.com/sign-in?ReturnUrl=/, wallen136, Wa346!ba, 970, Boating, Richard, 8/20/1950, 4666, 7/8/2019, J7325, 73580, 27369, Q9966, Q9966, J2001, M17.0, M25.561, M25.661, 378, 0, 1199SEIU BENEFIT AND PENSION FUND, 7/15/2019, 9016768006, 4/8/2020, PRIMARY, Streisand, Robert , Active Life Health of NY PC, NO, Partial payment:  $182.43 toward claim. Q9966 denied due to service being inclusive to primary procedure not separately payable. 73580 denied due to provider not being credentialed for service. Per Mr. Stroman 5/8/2020 3:28 PM EST. Action:  Insurance needs documentation submitted that provider can render service  via mail: ATTN APPEALS POX BOX 1007 New York NY 10108., Aug 26 2019  9:00AM, Gossett, Alexandra, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY) - 1199, ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY), https://navinet.navimedix.com/sign-in?ReturnUrl=/, wallen136, Wa346!ba, 970, Boating, Richard, 8/20/1950, 6044, 7/29/2019, J1040, 73580, 27369, Q9966, J2001, 73701, 77002, M19.011, M25.511, M17.11, 299, 0, 1199SEIU BENEFIT AND PENSION FUND, 1/6/2020, 9016768006, 4/8/2020, PRIMARY, Streisand, Robert , Active Life Health of NY PC, NO, Partial payment:  $182.43 toward claim. Q9966 denied due to service being inclusive to primary procedure not separately payable. 73580 denied due to provider not being credentialed for service. Per Mr. Stroman 5/8/2020 3:28 PM EST. Action:  Insurance needs documentation submitted that provider can render service  via mail: ATTN APPEALS POX BOX 1007 New York NY 10108., Aug 26 2019  9:00AM, Gossett, Alexandra, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY) - 1199, ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY), https://navinet.navimedix.com/sign-in?ReturnUrl=/, wallen136, Wa346!ba, 970, Boating, Richard, 8/20/1950, 6369, 8/7/2019, J7325, 73580, 27369, J2001, M17.12, M25.662, R26.2, 378, 0, 1199SEIU BENEFIT AND PENSION FUND, 9/12/2019, 9016768006, 4/8/2020, PRIMARY, Streisand, Robert , Active Life Health of NY PC, NO, Partial payment:  $182.43 toward claim. Q9966 denied due to service being inclusive to primary procedure not separately payable. 73580 denied due to provider not being credentialed for service. Per Mr. Stroman 5/8/2020 3:28 PM EST. Action:  Insurance needs documentation submitted that provider can render service  via mail: ATTN APPEALS POX BOX 1007 New York NY 10108., Aug 26 2019  9:00AM, Gossett, Alexandra, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY) - 1199, ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY), https://navinet.navimedix.com/sign-in?ReturnUrl=/, wallen136, Wa346!ba, 970, Boating, Richard, 8/20/1950, 6891, 8/19/2019, J7325, 73580, 27369, Q9966, Q9966, J2001, 73701, M25.662, M17.12, R26.2, 378, 0, 1199SEIU BENEFIT AND PENSION FUND, 9/20/2019, 9016768006, 4/8/2020, PRIMARY, Streisand, Robert , Active Life Health of NY PC, NO, Partial payment:  $182.43 toward claim. Q9966 denied due to service being inclusive to primary procedure not separately payable. 73580 denied due to provider not being credentialed for service. Per Mr. Stroman 5/8/2020 3:28 PM EST. Action:  Insurance needs documentation submitted that provider can render service  via mail: ATTN APPEALS POX BOX 1007 New York NY 10108., Aug 26 2019  9:00AM, Gossett, Alexandra, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY) - 1199, ACTIVE LIFE HEALTH OF NY, PC (NEW YORK CITY), https://navinet.navimedix.com/sign-in?ReturnUrl=/, wallen136, Wa346!ba, 970, Boating, Richard, 8/20/1950, 7031, 8/26/2019, J7325, 73580, 27369, Q9966, Q9966, J2001, 73701, 77002, M17.12, M25.662, R26.2, 299, 0, 1199SEIU BENEFIT AND PENSION FUND, 1/6/2020, 9016768006, 4/8/2020, PRIMARY, Streisand, Robert , Active Life Health of NY PC, NO, Partial payment:  $182.43 toward claim. Q9966 denied due to service being inclusive to primary procedure not separately payable. 73580 denied due to provider not being credentialed for service. Per Mr. Stroman 5/8/2020 3:28 PM EST. Action:  Insurance needs documentation submitted that provider can render service  via mail: ATTN APPEALS POX BOX 1007 New York NY 10108., Aug 26 2019  9:00AM, Gossett, Alexandra, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Endocrine Associates of West Village - 1199, Endocrine Associates of West Village, https://navinet.navimedix.com/sign-in?ReturnUrl=/, MALDER8, Cure6399MD, 19296, Francois, Claudette, 7/15/1968, 178518, 2/13/2020, 83036, 84439, 84443, 85025, 80053, 83721, 83735, E11.8, R63.5, E66.01, Z68.42, G47.30, L83, 210, 0, 1199 NATIONAL BENEFIT FUND, 5/4/2020, 9038548527, 3/25/2020, PRIMARY, Manessis, Anastasios, 275 Seventh Avenue, NO, , Jun  4 2020  9:57AM, Billing, Cure, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Endocrine Associates of West Village - 1199, Endocrine Associates of West Village, https://navinet.navimedix.com/sign-in?ReturnUrl=/, MALDER8, Cure6399MD, 7451, Santiago, Mayra, 4/11/1969, 184083, 4/27/2020, 99214, 95251, G0108, E11.65, Z98.890, E89.0, C73, Z85.3, E55.9, E78.2, 536, 0, 1199 NATIONAL BENEFIT FUND,, 5/8/2020, 9012763800, NULL, PRIMARY, Manessis, Anastasios, 275 Seventh Avenue, NO, , Apr 27 2020 10:30AM, ATC'U, IRA, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Endocrine Associates of West Village - 1199, Endocrine Associates of West Village, https://navinet.navimedix.com/sign-in?ReturnUrl=/, MALDER8, Cure6399MD, 9744, CORDERO, VERONICA, 4/16/1977, 184799, 5/6/2020, 99214, E03.9, E04.9, D51.0, E66.9, J45.909, E78.2, R63.5, Z68.41, 230, 0, 1199 NATIONAL BENEFIT FUND, 5/8/2020, 9800643711, NULL, PRIMARY, Manessis, Anastasios, LIC Office, NO, , May  6 2020 12:00PM, Billing, Cure, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: VJZ ENTERPRISES, INC - 1199, VJZ ENTERPRISES, INC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, SZUBRADT2, VZarcone01, 456, SHAPIRO, DEBRA, 11/17/1958, 8261, 1/7/2020, 99213, J01.40, R05, M41.25, 218.53, 0, LOCAL 1199 PPO, 2/3/2020, 9011903979, NULL, PRIMARY, Zarcone, Valerie , VJZ Enterprises, INC, NO, , Jan  7 2020  2:53AM, SBT, MH, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: VJZ ENTERPRISES, INC - 1199, VJZ ENTERPRISES, INC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, SZUBRADT2, VZarcone01, 791, CATRINI, LINDA, 3/8/1954, 8563, 1/31/2020, 90670, 86580, 93000, 99406, 96372, 90471, 99397, Z00.00, Z72.0, Z23, M81.0, N60.19, F17.210, 43.75, 5, LOCAL 1199 PPO, 2/14/2020, 9041980107, 2/26/2020, PRIMARY, Zarcone, Valerie , VJZ Enterprises, INC, NO, , Feb 24 2020  1:56AM, SBT, MH, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Heart Rhythm Associates of NY, PLLC - 1199, Heart Rhythm Associates of NY, PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, sharrison402, CureMD#2020, 7618, GARCIA, DAVID, 11/7/1963, 67692, 5/1/2020, 93297, G2066, I47.2, I42.0, I49.3, I50.22, I10, 1100, 0, 1199 NATIONAL BENEFIT FUND, 5/8/2020, 9016287508, NULL, PRIMARY, Suri, Ranjit, Heart Rhythm Assoc Office NY, NO, , May  1 2020 10:54AM, Cure, Billing, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Heart Rhythm Associates of NY, PLLC - 1199, Heart Rhythm Associates of NY, PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, sharrison402, CureMD#2020, 7618, GARCIA, DAVID, 11/7/1963, 67693, 4/28/2020, 93295, 93296, I10, I50.22, I49.3, I42.0, I47.2, 450, 0, 1199 NATIONAL BENEFIT FUND, 5/8/2020, 9016287508, NULL, PRIMARY, Suri, Ranjit, Heart Rhythm Assoc Office NY, NO, , May  1 2020 10:54AM, Cure, Billing, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Eastchester Medical Associates - 1199, Eastchester Medical Associates, https://navinet.navimedix.com/sign-in?ReturnUrl=/, falven2, CureMD@3266, 10406, Molina Alvarenga, Xiomara, 1/26/1987, 122433, 5/4/2020, 99213, 81025, 36415, N92.4, R42, Z87.410, Z30.431, N75.0, N94.6, 210, 0, 1199 NATIONAL BENEFIT FUND, 5/6/2020, 9037249258, NULL, PRIMARY, Henry, Donna, 2426 Eastchester Road, NO, NULL, Jun  8 2020 11:15AM, NULL, file not downloaded</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Eastchester Medical Associates - 1199, Eastchester Medical Associates, https://navinet.navimedix.com/sign-in?ReturnUrl=/, falven2, CureMD@3266, 10406, Molina Alvarenga, Xiomara, 1/26/1987, 122451, 5/6/2020, 99213, N92.4, R87.810, R51, N75.0, N94.6, R42, Z87.410, 170, 0, 1199 NATIONAL BENEFIT FUND, 5/8/2020, 9037249258, NULL, PRIMARY, Henry, Donna, 2426 Eastchester Road, NO, NULL, Jun  8 2020 11:15AM, NULL, file not downloaded</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Eastchester Medical Associates - 1199, Eastchester Medical Associates, https://navinet.navimedix.com/sign-in?ReturnUrl=/, falven2, CureMD@3266, 19172, Gonzalez, Chris Anthony, 2/17/2020, 122215, 4/11/2020, 99213, Z00.129, Z71.89, 170, 0, 1199 NATIONAL BENEFIT FUND, 4/27/2020, 9800196008, NULL, PRIMARY, Lee-Rey, Elizabeth, 2426 Eastchester Road, NO, NULL, May 16 2020 11:30AM, NULL, No record found</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Eastchester Medical Associates - 1199, Eastchester Medical Associates, https://navinet.navimedix.com/sign-in?ReturnUrl=/, falven2, CureMD@3266, 5599, Moodie, Collin, 6/22/1973, 122368, 4/27/2020, 99214, 36415, 81002, I10, R12, Z71.3, Z76.89, M62.830, 270, 0, 1199 NATIONAL BENEFIT FUND, 5/5/2020, 9800534523, NULL, PRIMARY, Lee-Rey, Elizabeth, 2426 Eastchester Road, NO, , May 21 2020  6:30PM, Billing, Cure, file not downloaded</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Eastchester Medical Associates - 1199, Eastchester Medical Associates, https://navinet.navimedix.com/sign-in?ReturnUrl=/, falven2, CureMD@3266, 7243, Oquendo, Carmen, 12/2/1987, 122423, 5/6/2020, 99213, 87110, N94.819, R10.2, B37.3, Z01.411, 210, 0, 1199 NATIONAL BENEFIT FUND, 5/7/2020, 9800329441, NULL, PRIMARY, Correa, Nereida, 2426 Eastchester Road, NO, , May  6 2020 12:00AM, Billing, Cure, file not downloaded</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Eastchester Medical Associates - 1199, Eastchester Medical Associates, https://navinet.navimedix.com/sign-in?ReturnUrl=/, falven2, CureMD@3266, 732, Larmond, Sophia, 7/2/1968, 120445, 2/21/2020, 58555, 58120, N92.1, D25.9, 620, 0, 1199 NATIONAL BENEFIT FUND, 3/11/2020, 9023652797, 4/29/2020, PRIMARY, Henry, Donna, Montefiore Westchester Sq hospital, NO, , Mar 10 2020 11:15AM, Billing, Cure, file not downloaded</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Hempstead Main Medical Center, PC (Urgent Way) - 1199, Hempstead Main Medical Center, PC (Urgent Way), https://navinet.navimedix.com/sign-in?ReturnUrl=/, tokeke, Hempstead$1, 34556, Canizares, Michael, 1/22/1986, 114094, 4/29/2020, S9083, 99215, E66.01, I10, Z20.828, R20.2, 257, 0, 1199 National Benefit Fund, 5/7/2020, 9023533926, NULL, PRIMARY, Khan, Faika, Hicksville Primary Care - TeleMed, NO, S9083 is not billable at POS 02 (Telehealth) it is not contracted for POS 20 (Urgent Care). As per client response use 99215.So now claim has submitted with cpt code 99215.N/A, Apr 29 2020  9:45AM, Sh, G, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Hempstead Main Medical Center, PC (Urgent Way) - 1199, Hempstead Main Medical Center, PC (Urgent Way), https://navinet.navimedix.com/sign-in?ReturnUrl=/, tokeke, Hempstead$1, 34868, Mccrea, Theresa, 9/1/1955, 114353, 5/2/2020, S9083, 99051, Z76.0, E66.01, E11.9, R03.0, E66.9, I10, E78.5, 420, 0, 1199 National Benefit Fund, 5/6/2020, 9010775224, NULL, PRIMARY, Khan, Faika, Hempstead, NO, , May  2 2020 10:00AM, Cure, billing, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Hempstead Main Medical Center, PC (Urgent Way) - 1199, Hempstead Main Medical Center, PC (Urgent Way), https://navinet.navimedix.com/sign-in?ReturnUrl=/, tokeke, Hempstead$1, 38896, Nardoni, Albert, 8/13/1996, 114201, 4/30/2020, 99000, S9083, Z20.89, R03.0, M62.81, R53.83, 350, 0, 1199 National Benefit Fund, 5/6/2020, 9014649692, NULL, PRIMARY, Khan, Faika, Bronx, NO, 1199 National Benefit Fund rejected the claim due to subscriber and subscriber ID not found. Claim was submitted with incorrect ID System did not show error regarding issue. Now claim resubmitted to insurance with correct ID as per web portal. Issue reported. Email ref : FW: RE: FW: Hempstead Main Medical Center PC ( Rejection ) . N/A, May  5 2020  4:00PM, H Sa, DMT, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Hempstead Main Medical Center, PC (Urgent Way) - 1199, Hempstead Main Medical Center, PC (Urgent Way), https://navinet.navimedix.com/sign-in?ReturnUrl=/, tokeke, Hempstead$1, 47694, PALMER GORDON, Paulette, 12/19/1968, 113047, 4/14/2020, S9083, J06.9, R68.83, R53.83, R53.1, 300, 0, 1199 National Benefit Fund, 4/21/2020, 9009507901, NULL, PRIMARY, Khan, Faika, Hempstead, NO, , May 26 2020  1:15PM, Cure, billing, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Hempstead Main Medical Center, PC (Urgent Way) - 1199, Hempstead Main Medical Center, PC (Urgent Way), https://navinet.navimedix.com/sign-in?ReturnUrl=/, tokeke, Hempstead$1, 47694, PALMER GORDON, Paulette, 12/19/1968, 113922, 4/27/2020, S9083, Z20.828, R05, R09.81, R53.83, M62.81, 300, 0, 1199 National Benefit Fund, 5/5/2020, 9009507901, NULL, PRIMARY, Khan, Faika, Hempstead, NO, , May 26 2020  1:15PM, Cure, billing, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Hempstead Main Medical Center, PC (Urgent Way) - 1199, Hempstead Main Medical Center, PC (Urgent Way), https://navinet.navimedix.com/sign-in?ReturnUrl=/, tokeke, Hempstead$1, 47694, PALMER GORDON, Paulette, 12/19/1968, 114350, 5/2/2020, S9083, 99051, R53.83, R05, Z20.828, M79.10, 420, 0, 1199 National Benefit Fund, 5/5/2020, 9009507901, NULL, PRIMARY, Khan, Faika, Hempstead, NO, , May 26 2020  1:15PM, Cure, billing, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Hempstead Main Medical Center, PC (Urgent Way) - 1199, Hempstead Main Medical Center, PC (Urgent Way), https://navinet.navimedix.com/sign-in?ReturnUrl=/, tokeke, Hempstead$1, 48114, Rivera, Rebecca, 4/10/1964, 114198, 5/1/2020, 94760, 99000, S9083, R51, R53.1, R53.83, R50.9, E66.9, K21.9, 256, 0, 1199 NATIONAL BENEFIT, 5/5/2020, 9015220074, NULL, PRIMARY, Khan, Faika, Bronx, NO, , May 21 2020  6:15PM, Cure, billing, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Hempstead Main Medical Center, PC (Urgent Way) - 1199, Hempstead Main Medical Center, PC (Urgent Way), https://navinet.navimedix.com/sign-in?ReturnUrl=/, tokeke, Hempstead$1, 48114, Rivera, Rebecca, 4/10/1964, 114419, 5/5/2020, 36415, 99000, 87880, S9083, J02.9, R07.0, R13.19, R53.83, M62.81, K21.9, 355, 0, 1199 NATIONAL BENEFIT, 5/7/2020, 9015220074, NULL, PRIMARY, Khan, Faika, Bronx, NO, , May 21 2020  6:15PM, Cure, billing, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Hempstead Main Medical Center, PC (Urgent Way) - 1199, Hempstead Main Medical Center, PC (Urgent Way), https://navinet.navimedix.com/sign-in?ReturnUrl=/, tokeke, Hempstead$1, 48118, Rieta, Alvin, 10/7/1979, 114175, 4/30/2020, 99000, S9083, Z20.828, G93.3, J00, M79.10, R53.83, 250, 0, 1199 NATIONAL BENEFIT, 5/6/2020, 9800608665, NULL, PRIMARY, Khan, Faika, Bronx, NO, , May 13 2020 12:15PM, Cure, billing, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Hempstead Main Medical Center, PC (Urgent Way) - 1199, Hempstead Main Medical Center, PC (Urgent Way), https://navinet.navimedix.com/sign-in?ReturnUrl=/, tokeke, Hempstead$1, 48135, Rieta, Isabel, 10/2/2017, 114212, 4/30/2020, 99000, S9083, R05, R09.81, M62.81, R53.83, Z20.828, R68.83, 350, 0, 1199 National Benefit Fund, 5/6/2020, 9800608665, NULL, PRIMARY, Khan, Faika, Bronx, NO, 1199 National Benefit Fund rejected the claim due to subscriber and subscriber ID not found. Claim was submitted with incorrect ID. Claim was submitted to insurance with difference which is showing in the eligibility. Now claim resubmitted to insurance with correct ID as per web portal. Issue reported. Email ref : FW: RE: FW: Hempstead Main Medical Center PC ( Rejection ) . N/A, Apr 30 2020 11:45AM, H Sa, DMT, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Hempstead Main Medical Center, PC (Urgent Way) - 1199, Hempstead Main Medical Center, PC (Urgent Way), https://navinet.navimedix.com/sign-in?ReturnUrl=/, tokeke, Hempstead$1, 48221, Brun, France, 11/30/1980, 114440, 5/4/2020, S9083, 99000, Z20.828, R05, R53.83, R09.81, R03.0, 350, 0, 1199 National Benefit Fund, 5/7/2020, 9800560525, NULL, PRIMARY, Khan, Faika, Hempstead, NO, , May  4 2020 12:15PM, Cure, billing, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Hempstead Main Medical Center, PC (Urgent Way) - 1199, Hempstead Main Medical Center, PC (Urgent Way), https://navinet.navimedix.com/sign-in?ReturnUrl=/, tokeke, Hempstead$1, 48234, Santiago, Jose, 11/27/1978, 114469, 5/5/2020, 36415, 99000, S9083, Z20.828, B34.9, R05, R09.81, E66.9, R53.1, 375, 0, 1199 National Benefit Fund, 5/7/2020, 9013585125, NULL, PRIMARY, Khan, Faika, Bronx, NO, , May  5 2020  2:30PM, Cure, billing, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Hempstead Main Medical Center, PC (Urgent Way) - 1199, Hempstead Main Medical Center, PC (Urgent Way), https://navinet.navimedix.com/sign-in?ReturnUrl=/, tokeke, Hempstead$1, 48246, Scott Campbell, Saskia, 7/19/1979, 114495, 5/4/2020, 96372, S9083, J1885, 99051, M25.551, M79.604, E66.3, R03.0, R53.83, R53.1, 1210, 0, 1199 NATIONAL BENEFIT, 5/7/2020, 9800277273, NULL, PRIMARY, Khan, Faika, Hempstead, NO, , May 18 2020  4:30PM, Cure, billing, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Hempstead Main Medical Center, PC (Urgent Way) - 1199, Hempstead Main Medical Center, PC (Urgent Way), https://navinet.navimedix.com/sign-in?ReturnUrl=/, tokeke, Hempstead$1, 48300, Williams, Ricardo, 4/3/1989, 114651, 5/6/2020, 96372, 81002, S9083, J0696, Z20.828, R30.0, R35.0, R36.9, I95.9, R53.83, 453, 0, 1199 National Benefit Fund, 5/8/2020, 9046412165, NULL, PRIMARY, Khan, Faika, Bronx, NO, , May 11 2020 12:30PM, Cure, billing, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: I & G Pediatrics - 1199, I & G Pediatrics, https://navinet.navimedix.com/sign-in?ReturnUrl=/, Aterry44, CureMD70832#, 3059, Munarov, Nathan, 5/28/2015, 104832, 2/12/2019, 99213, 90460, 90716, J45.20, L20.82, Z23, 551, 0, 1199, 4/21/2020, 9800546690, 5/5/2020, PRIMARY, ITZKEVITCH, MZIYA, I and G Pediatrics, NO, Claim has been rejected due to eligibility issue when billed under ID 743427156. I have rebilled the claim under ID 9800546690. If rejected then further action will be taken accordingly. Patient was active under other ID as well. N/A, Dec 25 2019  2:00PM, RD, DMT, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: I & G Pediatrics - 1199, I & G Pediatrics, https://navinet.navimedix.com/sign-in?ReturnUrl=/, Aterry44, CureMD70832#, 3059, Munarov, Nathan, 5/28/2015, 107378, 5/13/2019, 99392, 96110, 36415, Z00.129, 436, 0, 1199, 4/21/2020, 9800546690, 5/5/2020, PRIMARY, ITZKEVITCH, MZIYA, I and G Pediatrics, NO, Claim has been rejected due to eligibility issue when billed under ID 743427156. I have rebilled the claim under ID 9800546690. If rejected then further action will be taken accordingly. Patient was active under other ID as well. N/A, Dec 25 2019  2:00PM, RD, DMT, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: I & G Pediatrics - 1199, I & G Pediatrics, https://navinet.navimedix.com/sign-in?ReturnUrl=/, Aterry44, CureMD70832#, 3059, Munarov, Nathan, 5/28/2015, 114635, 12/25/2019, 99213, 87880, 87804, J11.1, 356, 0, 1199, 4/21/2020, 9800546690, 5/5/2020, PRIMARY, ITZKEVITCH, MZIYA, I and G Pediatrics New, NO, Claim has been rejected due to eligibility issue when billed under ID 743427156. I have rebilled the claim under ID 9800546690. If rejected then further action will be taken accordingly. Patient was active under other ID as well. N/A, Dec 25 2019  2:00PM, RD, DMT, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: I & G Pediatrics - 1199, I & G Pediatrics, https://navinet.navimedix.com/sign-in?ReturnUrl=/, Aterry44, CureMD70832#, 3911, Isakharov, Ranen, 3/20/2008, 112623, 11/30/2019, 99393, 92552, 90460, 99173, 90734, 36415, Z00.129, Z23, 407, 0, 1199, 12/3/2019, 9800616575, 2/5/2020, PRIMARY, ITZKEVITCH, MZIYA, I and G Pediatrics New, NO, Working on OSB: Claim was denied due to COB issue and patient call was escalated. Patient stated that she will update the COB information. As per insurance rep COB information has been updated so she sent the claim back for reprocessing. QGRWR1604853 Rep: Maria (N/A)  , Nov 30 2019 10:30AM, AR, FA, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: I & G Pediatrics - 1199, I & G Pediatrics, https://navinet.navimedix.com/sign-in?ReturnUrl=/, Aterry44, CureMD70832#, 4763, Aronov, Roni, 8/20/2007, 113507, 11/19/2019, 99394, 92552, 90460, 99173, 90734, 90651, 36415, Z00.129, Z23, 100, 0, 1199, 1/6/2020, 9038128416, 1/20/2020, PRIMARY, ITZKEVITCH, MZIYA, I and G Pediatrics New, NO, , Apr  3 2020  1:45PM, Billing, Cure, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: DR. MATTHEW JONES MEDICINE PLLC - 1199, DR. MATTHEW JONES MEDICINE PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, AMILLER2422, CureMD@786, 1769, Gaynor, Twila, 5/30/1953, 15102, 3/30/2020, 99203, Z20.828, I87.2, R01.1, 194.58, 0, 1199 NATIONAL BENEFIT FUND, 4/13/2020, 9035351759, NULL, PRIMARY, Crevecoeur, Harry , BKLYN Cardio Office, NO, , Apr 20 2020 12:00AM, Billing, Cure, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: DR. MATTHEW JONES MEDICINE PLLC - 1199, DR. MATTHEW JONES MEDICINE PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, AMILLER2422, CureMD@786, 2059, Benoit, Oralyn, 5/21/1971, 15158, 4/6/2020, 99203, R00.2, Z20.828, R06.02, I10, R01.1, 194.58, 0, 1199 NATIONAL BENEFIT FUND, 4/13/2020, 9037573191, NULL, PRIMARY, Crevecoeur, Harry , BKLYN Cardio Office, NO, , May 22 2020  4:00PM, Billing, Cure, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: DR. MATTHEW JONES MEDICINE PLLC - 1199, DR. MATTHEW JONES MEDICINE PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, AMILLER2422, CureMD@786, 2059, Benoit, Oralyn, 5/21/1971, 15249, 1/15/2020, 93229, R00.2, 1308.45, 0, 1199 NATIONAL BENEFIT FUND, 4/8/2020, 9037573191, NULL, PRIMARY, Jones, Matthew, BKLYN Cardio Office, NO, , May 22 2020  4:00PM, Billing, Cure, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: DR. MATTHEW JONES MEDICINE PLLC - 1199, DR. MATTHEW JONES MEDICINE PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, AMILLER2422, CureMD@786, 2094, Sankar, Keisha, 1/16/1979, 13985, 2/19/2020, 99203, 99401, 1159F, 1160F, 3725F, H0001, 1036F, 1158F, M25.512, J30.1, 450.27, 0, 1199 NATIONAL BENEFIT FUND, 3/19/2020, 9038811939, NULL, PRIMARY, Crevecoeur, Harry , BKLYN Cardio Office, NO, NULL, Jun  3 2020  1:30PM, NULL, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: DR. MATTHEW JONES MEDICINE PLLC - 1199, DR. MATTHEW JONES MEDICINE PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, AMILLER2422, CureMD@786, 2177, DUBERRY, VEREEN, 2/12/1963, 13417, 2/22/2020, 99203, 99401, 1159F, 1160F, 3725F, H0001, 1036F, 1158F, B35.1, E04.0, K21.0, G40.309, G43.009, E78.00, J30.1, J45.991, L85.3, M77.30, Z00.01, K58.1, 217.26, 0, 1199 NATIONAL BENEFIT FUND, 3/23/2020, 9026141629, 5/4/2020, PRIMARY, Crevecoeur, Harry , BKLYN Cardio Office, NO, , Apr 18 2020 12:00AM, Billing, Cure, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: DR. MATTHEW JONES MEDICINE PLLC - 1199, DR. MATTHEW JONES MEDICINE PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, AMILLER2422, CureMD@786, 2177, DUBERRY, VEREEN, 2/12/1963, 14123, 4/18/2020, 99213, K58.1, J30.1, J45.991, Z00.01, E04.0, G43.009, G40.309, E78.00, K21.0, B35.1, M77.30, L85.3, 134.98, 0, 1199 NATIONAL BENEFIT FUND, 4/20/2020, 9026141629, NULL, PRIMARY, Crevecoeur, Harry , BKLYN Cardio Office, NO, , Apr 18 2020 12:00AM, Billing, Cure, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: DR. MATTHEW JONES MEDICINE PLLC - 1199, DR. MATTHEW JONES MEDICINE PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, AMILLER2422, CureMD@786, 2308, LEGALL, MICHELLE, 5/7/1969, 14042, 2/22/2020, 99203, 99401, 82962, 36415, 93000, 3725F, H0001, 1036F, 1158F, 1160F, 1159F, E11.9, I10, D50.9, E55.9, E66.3, J20.9, J45.991, R53.82, R60.1, E66.9, 237.67, 0, 1199 NATIONAL BENEFIT FUND, 3/23/2020, 9026860354, 5/4/2020, PRIMARY, Crevecoeur, Harry , BKLYN Cardio Office, NO, PROVIDER IS NOT CREDENTIALED WITH THE PLAN, PLEASE HOLD THE CLAIM AND INFORM BCM ACCORDINGLY, May  5 2020 12:40PM, Billing, Cure, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: DR. MATTHEW JONES MEDICINE PLLC - 1199, DR. MATTHEW JONES MEDICINE PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, AMILLER2422, CureMD@786, 2400, ANDERSON, TRISHA, 8/26/1975, 15776, 5/6/2020, 93306, I10, R00.2, R07.89, 375.9, 0, 1199 NATIONAL BENEFIT FUND, 5/7/2020, 9018422103, NULL, PRIMARY, Jones, Matthew, BKLYN Cardio Office, NO, , May  6 2020 12:30PM, Billing, Cure, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: DR. MATTHEW JONES MEDICINE PLLC - 1199, DR. MATTHEW JONES MEDICINE PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, AMILLER2422, CureMD@786, 2446, HOUSTON, PAULA, 4/28/1957, 15196, 4/8/2020, 99442, H52.4, I10, Z20.828, 42, 0, 1199 NATIONAL BENEFIT FUND, 4/17/2020, 9028589439, NULL, PRIMARY, Crevecoeur, Harry , BKLYN Cardio Office, NO, , May 20 2020  9:30AM, Billing, Cure, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: DR. MATTHEW JONES MEDICINE PLLC - 1199, DR. MATTHEW JONES MEDICINE PLLC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, AMILLER2422, CureMD@786, 867, Eason, Melvin, 11/2/1969, 13552, 3/11/2020, 99203, 99401, 36415, 82962, 3725F, 1036F, 1158F, R94.31, E11.22, I50.9, R55, E78.5, I10, I25.10, 20.41, 0, 1199 NATIONAL BENEFIT FUND, 3/30/2020, 9800106599, 5/30/2020, PRIMARY, Crevecoeur, Harry , BKLYN Cardio Office, NO, Working on RPA Claims: CPT codes 36415 has been denied due to bundled in 99203 there is no any CCI but plan still denied ENM has been paid with the amount of $115 check will be issue after next CPT code 82962 is also denied because these services related to lab and not billable at office as per plan please ask to client provide us write off approval. rep name Stroman ref number 05/04/2020. N/A., Mar 11 2020 11:30AM, AR, AT, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: I & G Pediatrics - 1199, I & G Pediatrics, https://navinet.navimedix.com/sign-in?ReturnUrl=/, Aterry44, CureMD70832#, 1855, Favor, Liberty, 12/7/2012, 112575, 10/28/2019, 99393, 92552, 99173, 36415, Z00.129, 20, 0, 1199, 12/18/2019, 9007764724, 12/18/2019, SECONDARY, ITZKEVITCH, MZIYA, I and G Pediatrics New, NO, Working on OSB: Insurance received the corrected claim on 12/26/2019 which got denied as duplicate. After verifying that this was a corrected claim insurance rep sent this claim back for reprocessing. Ref: QMXGR1513366 Rep: Gearcia (N/A), Oct 28 2019  2:30PM, AR, FA, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Rose Dermatology PC - 1199, Rose Dermatology PC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, lparaskevas, Coffee2020!, 16039, Lamb, Shante, 8/16/1977, 76246, 10/21/2019, 99203, 11900, J3301, L21.9, L73.1, L01.02, L70.0, L72.3, R20.8, 39.34, 0, 1199 National Benefit, 4/24/2020, 9800171655, 12/18/2019, SECONDARY, Paraskevas, Lilly-Rose, Rose Dermatology 2, NO, Working on OSB: Initially corrected claim was resubmitted through paper with the proof of primary EOB but as per insurance representative they have new mailing address for claim submission. No claim in their records. Now after verification claim has been submitted again under the new claim mailing address po box 1007 new york ny 10108 for further processing. Rep DOBEY N. Ref 04242020. N/A, Nov  4 2019  1:50PM, AR, BVDR, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: Rose Dermatology PC - 1199, Rose Dermatology PC, https://navinet.navimedix.com/sign-in?ReturnUrl=/, lparaskevas, Coffee2020!, 16039, Lamb, Shante, 8/16/1977, 76753, 11/4/2019, 99213, 11900, J3301, L25.9, L70.0, L72.3, R20.8, 31.05, 0, 1199 National Benefit, 4/24/2020, 9800171655, 12/26/2019, SECONDARY, Paraskevas, Lilly-Rose, Rose Dermatology 2, NO, Working on OSB: Initially corrected claim was resubmitted through paper with the proof of primary EOB but as per insurance representative they have new mailing address for claim submission. No claim in their records. Now after verification claim has been submitted again under the new claim mailing address po box 1007 new york ny 10108 for further processing. Rep DOBEY N. Ref 04242020. N/A, Nov  4 2019  1:50PM, AR, BVDR, Executed successfully</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.Action()'><b>Action</b><br>Test class: Followup.Medicaid.EMA<br>Parameters: ARC HealthResources of Rockland, Inc - 1199, ARC HealthResources of Rockland, Inc, https://navinet.navimedix.com/sign-in?ReturnUrl=/, tryan243, AR452%Live , 621, IROBUNDA, CHINEDUM, 12/3/1999, 78153, 5/1/2019, 90792, F31.89, F71, 228, 0, 1199 SEIU NATIONAL BENEFIT FUND^^^^^&1795, 8/6/2019, 9002505854, 5/30/2019, SECONDARY, Tobe, Russell, Article28 Congers., NO, Working on 90+ OSB: Insurance process our claim under the other TAX ID thats why rep did not providing a claim as per rep that provider is not enrolled under this TAX ID 134142322 that’s why they not process the claim after verification rep send our claim back for review. Call Ref: QMXGR1504637 Rep: SMITH. N\A, May  1 2019  4:50PM, AR, TM, Login Failed</td>
+<td></td>
+<td>0</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+<tr>
+<td title='Followup.Medicaid.EMA.preRec()'><b>preRec</b><br>Test class: Followup.Medicaid.EMA</td>
+<td></td>
+<td>4</td>
+<td>Followup.Medicaid.EMA@55c8fc60</td></tr>
+</table><p>
+</body>
+</html>
